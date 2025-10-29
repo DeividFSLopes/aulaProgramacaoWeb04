@@ -28,20 +28,20 @@ As imagens utilizadas estão na pasta /imagens e os estilos estão em /css/style
 
 /ong-amigao
 │
-├── css/
+── css/
 │   └── style.css
 │
-├── imagens/
+── imagens/
 │   ├── cachorro.jpg
 │   └── voluntarios.png
 │
-├── js/
+── js/
 │   └── script.js
 │
-├── index.html
-├── projeto.html
-├── cadastro.html
-└── README.md
+── index.html
+── projeto.html
+── cadastro.html
+── README.md
 
 ---
 
@@ -64,8 +64,6 @@ Git e GitHub – Controle de versão e versionamento semântico
 O site segue boas práticas de acessibilidade digital, incluindo:
 
 Navegação completa por teclado
-
-Estrutura semântica e hierárquica (uso de <header>, <main>, <section>, <footer>)
 
 Contraste de cores adequado (mínimo 4.5:1)
 
