@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro - ONG Amigão</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -22,52 +21,53 @@
     <main>
         <section>
             <h2>Formulário de Cadastro</h2>
-            <form id="formCadastro" action="#" method="post">
-                <fieldset>
+
+            <form id="formCadastro" action="#" method="post" novalidate>
+                <fieldset id="infoPessoais">
                     <legend>Informações Pessoais</legend>
                     <div class="form-group">
                         <label for="nome">Nome Completo:</label>
-                        <input type="text" id="nome" name="nome" required>
+                        <input type="text" id="nome" name="nome">
                     </div>
                     <div class="form-group">
                         <label for="email">E-mail:</label>
-                        <input type="email" id="email" name="email" required>
+                        <input type="email" id="email" name="email">
                     </div>
                     <div class="form-group">
                         <label for="cpf">CPF:</label>
-                        <input type="text" id="cpf" name="cpf" required>
+                        <input type="text" id="cpf" name="cpf">
                     </div>
                     <div class="form-group">
                         <label for="telefone">Telefone:</label>
-                        <input type="tel" id="telefone" name="telefone" required>
+                        <input type="tel" id="telefone" name="telefone">
                     </div>
                     <div class="form-group">
                         <label for="data">Data de Nascimento:</label>
-                        <input type="text" id="data" name="data" placeholder="DD/MM/AAAA" required>
+                        <input type="text" id="data" name="data" placeholder="dd/mm/aaaa">
                     </div>
                     <div class="form-group">
                         <label for="endereco">Endereço:</label>
-                        <input type="text" id="endereco" name="endereco" required>
+                        <input type="text" id="endereco" name="endereco">
                     </div>
                     <div class="form-group">
                         <label for="cep">CEP:</label>
-                        <input type="text" id="cep" name="cep" required>
+                        <input type="text" id="cep" name="cep">
                     </div>
                     <div class="form-group">
                         <label for="cidade">Cidade:</label>
-                        <input type="text" id="cidade" name="cidade" required>
+                        <input type="text" id="cidade" name="cidade">
                     </div>
                     <div class="form-group">
                         <label for="estado">Estado:</label>
-                        <input type="text" id="estado" name="estado" maxlength="2" required>
+                        <input type="text" id="estado" name="estado" maxlength="2">
                     </div>
                 </fieldset>
 
-                <fieldset>
+                <fieldset id="tipoCadastro">
                     <legend>Tipo de Cadastro</legend>
                     <div class="form-group radios-left">
                         <label>
-                            <input type="radio" id="voluntario" name="tipo" value="voluntario" required>
+                            <input type="radio" id="voluntario" name="tipo" value="voluntario">
                             Voluntário
                         </label>
                         <label>
@@ -78,6 +78,7 @@
                 </fieldset>
 
                 <button type="submit">Enviar Cadastro</button>
+                <p id="mensagem"></p>
             </form>
         </section>
     </main>
@@ -85,5 +86,7 @@
     <footer>
         <p>&copy; 2025 ONG Amigão</p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
