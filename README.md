@@ -26,37 +26,6 @@ cadastro.html – Formulário para cadastro de voluntários e doadores com valid
 
 As imagens utilizadas estão na pasta /imagens e os estilos estão em /css/style.css.
 
-/ong-amigao
-
-│
-
-── css/
-
-│   └── style.css
-
-│
-── imagens/
-
-│   ├── cachorro.jpg
-
-│   └── voluntarios.png
-
-│
-── js/
-
-│   └── script.js
-
-│
-
-── index.html
-
-── projeto.html
-
-── cadastro.html
-
-── README.md
-
-
 ---
 
 ## 🛠️ Tecnologias utilizadas
@@ -120,4 +89,4 @@ Entrega IV: Acessibilidade, versionamento e deploy final
 👨‍💻 Autor
 
 Deivid Lopes
-Projeto desenvolvido para fins acadêmicos na disciplina de Programação Web – 2025.
+Projeto desenvolvido para fins acadêmicos na disciplina de Desenvolvimento Front-End Para Web – 2025.
