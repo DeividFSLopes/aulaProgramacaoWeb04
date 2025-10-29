@@ -27,21 +27,35 @@ cadastro.html – Formulário para cadastro de voluntários e doadores com valid
 As imagens utilizadas estão na pasta /imagens e os estilos estão em /css/style.css.
 
 /ong-amigao
+
 │
+
 ── css/
+
 │   └── style.css
+
 │
 ── imagens/
+
 │   ├── cachorro.jpg
+
 │   └── voluntarios.png
+
 │
 ── js/
+
 │   └── script.js
+
 │
+
 ── index.html
+
 ── projeto.html
+
 ── cadastro.html
+
 ── README.md
+
 
 ---
 
